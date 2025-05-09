@@ -836,6 +836,143 @@ h3{
 .spacing{
     width: 4px;
 }
+/* almost all picture main container */
+.bigpicturetext-container{
+    width: 100%;
+}
+.big-picturetext-1{
+    width: 100%;
+}
+.big-picturetext-1-1{
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     min-width: 90%;
+     align-items: center;
+}
+.big-picturetext-1-1-new{
+    margin-bottom: -300px;
+}
+/* not mention in original site */
+.big-picturetext-1-2{
+    width: 100%;
+}
+.big-picturetext-1-2 img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.big-picturetext-1-3 .big-picturetext-1-1{
+    text-align: left;
+}
+.big-picturetext-1-3{
+    display: flex;
+    flex-direction: column;
+}
+.big-picturetext-1-1 > * > h2, .big-picturetext-1-1 > * > span {
+    text-align: left;
+}
+
+.everything-crave{
+    color: #191919ff;
+    font-family: 'TT Norms bold';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+}
+.new-everything{
+    max-width: 90%;
+    margin-top: 20px;
+}
+.crave-1{
+    color: #191919ff;
+    font-family:'TT Norms bold' ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+}
+.crave-2{
+    color: #191919ff;
+    font-family: 'TT Norms medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+}
+.new-creve-2{
+    margin-top: 10px;
+}
+.big-pictbutton{
+    margin-top: 20px;
+}
+.big-pictbutton-1{
+    position: relative;
+    max-width: 100%;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: #eb1700ff;
+    color: #ffffffff;
+}
+.big-pictbutton-1-1{
+    padding: 0px 12px;
+}
+.new-big-pictbutton-1-1{
+    display: block;
+    flex-grow: 1;
+    max-width: 100%;
+    transition: opacity 0.15s ease-in-out;
+    opacity: 1;
+}
+.big-pictbuttton-1-2{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.big-pictbutton-1-3{
+    flex-grow: 2;
+    min-width: 0px;
+    display: flex;
+    justify-content: center;
+}
+.big-pictbutton-1-3 > *{
+    width: 100%;
+}
+.big-pictbutton-1-4{
+    font-family:'TT Norms medium' ;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    display: block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
 /* responsive styling */
 
 @media screen and (max-width:767px){
